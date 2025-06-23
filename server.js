@@ -5,6 +5,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { globalErrorHandler } from "./utils/globalErrorhandler.js";
 import { itemRouter } from './routes/item.routes.js';
+import nodemailer from 'nodemailer';
 
 dotenv.config({ path: "./.env" });
 const app = express();
